@@ -1,0 +1,403 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-color-white: #ffffff;
+  --primary-yellow: #fd6f00;
+  --primary-dark: #000000;
+  --font-color: #000000;
+}
+
+body {
+  background-color: #1e1e1e;
+  font-family: "Inter", sans-serif;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 998px;
+  margin: 0 auto;
+}
+
+.primary-button {
+  /* width: 75px;
+  height: 25px; */
+  display: block;
+  padding: 10px 20px;
+  background-color: var(--primary-yellow);
+  color: var(--font-color-white);
+}
+
+.navbar {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo a {
+  color: var(--primary-yellow);
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+}
+
+/* Banner */
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.banner .text-area h1 {
+  width: 100%;
+  font-size: 60px;
+  line-height: 1;
+  color: var(--font-color-white);
+}
+
+.banner .text-area h1 img {
+  display: inline;
+}
+
+.profile-image-container img {
+  width: 400px;
+}
+
+.qualification {
+  color: #fff;
+  width: 100%;
+  height: 75px;
+  margin-bottom: 30px;
+  text-align: center;
+  background: var(--primary-dark);
+  margin-top: -40px;
+  transform: rotate(-8deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.qualification h3 {
+  vertical-align: middle;
+}
+
+.about-section {
+  margin-top: 220px;
+  margin-bottom: 70px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-section .about h3 {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: var(--font-color-white);
+}
+
+.about-section .about p {
+  color: var(--primary-dark);
+  width: 350px;
+  margin-top: 15px;
+}
+
+.expriences {
+  text-align: right;
+}
+
+.expriences h2 {
+  color: var(--font-color-white);
+}
+
+.expriences p {
+  color: var(--font-color-white);
+}
+.work-experience {
+  width: 100%;
+  height: 400px;
+  background-image: url("../images/BG.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.work-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.work-container .about-experience {
+  width: 60%;
+  color: var(--font-color-white);
+}
+
+.about-experience h3 {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.about-experience h2 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.about-experience p {
+  line-height: 1.5;
+  letter-spacing: 3px;
+  font-size: 14px;
+  width: 70%;
+  margin-top: 20px;
+}
+
+.company {
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.company h1 {
+  margin-bottom: 20px;
+  color: var(--font-color-white);
+}
+
+.work-detail {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.work-detail h3 {
+  font-size: 14px;
+  color: #9c9793;
+  margin-bottom: 15px;
+}
+
+.work-detail .date {
+  color: #fff;
+}
+
+.award-contianer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 100px;
+}
+
+.award-text {
+  margin-bottom: 20px;
+}
+
+.award-text h1 {
+  color: white;
+  font-size: 26px;
+  font-weight: bold;
+}
+.award-text p {
+  color: #808080;
+  font-size: 16px;
+  font-weight: 300;
+}
+.award-text h1,
+.award-text p {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.award-details {
+  background-color: var(--primary-dark);
+  margin-bottom: 20px;
+  padding: 20px;
+  color: #fff;
+}
+
+.award-details-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.award-details-title h2 {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.award-details-title h3 {
+  font-size: 14px;
+}
+
+.award-desc {
+  font-size: 12px;
+  color: #808080;
+}
+
+.categories {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.categories a {
+  background: #000000;
+}
+
+.web {
+  background: #fd6f00;
+}
+
+.my-work {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  color: #fff;
+}
+
+.my-work img {
+  width: 350px;
+}
+
+.work-text h4 {
+  font-size: 14px;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+.work-text h1 {
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+
+.my-work .work-text p {
+  font-size: 12px;
+  margin-bottom: 7px;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.contact-title {
+  text-align: center;
+}
+.contact-title h4 {
+  font-size: 12px;
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+.contact-title h1 {
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+form {
+  width: 100%;
+  height: 500px;
+  background-color: #34261b;
+  padding: 50px;
+}
+
+form h1 {
+  font-size: 35px;
+  text-transform: uppercase;
+  margin: 50px;
+}
+
+form .inputs {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form .inputs input {
+  width: 50%;
+  padding: 10px 20px;
+  margin-right: 5px;
+  border: none;
+  background: none;
+  outline: none;
+  /* margin-left: 40px; */
+  margin-bottom: 20px;
+  border-bottom: 1px solid #d6d4d1;
+}
+
+input::placeholder {
+  color: #fff;
+}
+
+textarea {
+  width: 100%;
+  /* height: 100px; */
+  background: none;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #d6d4d1;
+}
+
+textarea::placeholder {
+  margin-left: 25px;
+  color: #fff;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+form button {
+  border: none;
+  margin-top: 20px;
+}
+
+footer {
+  width: 100%;
+  /* height: 300px; */
+  background-color: #000000;
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+footer .logo a {
+  font-size: 32px;
+}
+
+.copyright {
+  width: 100%;
+  background-color: #9c9793;
+  text-align: center;
+  padding: 10px;
+  margin-top: 50px;
+}
+
+.copyright .name {
+  color: var(--primary-yellow);
+}
